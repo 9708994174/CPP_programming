@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class DoctorPassport {
+    public:
+        string name;
+            string address;
+                int wardNumber;
+};
+
+int main() {
+        DoctorPassport doctor;
+        
+            getline(cin, doctor.name);
+                getline(cin, doctor.address);
+                    cin >> doctor.wardNumber;
+                    
+                        cout << "Name: " << doctor.name << endl;
+                            cout << "Address: " << doctor.address << endl;
+                                cout << "Ward Number: " << doctor.wardNumber << endl;
+                                
+                                    return 0;
+}
